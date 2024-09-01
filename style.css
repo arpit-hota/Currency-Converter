@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EDFFEC;
+}
+
+.container {
+    background-color: #61E786;
+    padding: 2rem;
+    border-radius: 10px;
+    min-height: 45vh;
+    width: 60vh;
+    align-items: center;
+}
+
+#heading {
+    padding: 0 0 2rem 4rem;
+}
+
+#input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#from_select {
+    width: 8rem;
+    margin: 2px;
+    padding: 0 5px 0 5px;
+    border: 2px solid #9792E3;
+    background-color: #5A5766;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.from img {
+    height: 3rem;
+}
+
+#to_select {
+    width: 8rem;
+    margin: 2px;
+    padding: 0 5px 0 5px;
+    border: 2px solid #9792E3;
+    background-color: #5A5766;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.to img {
+    height: 3rem;
+}
+
+.enter_amount {
+    padding: 1rem 0 2rem 0;
+}
+
+#amount {
+    height: 30px;
+    border: 2px solid #9792E3;
+    border-radius: 5px;
+}
+
+.value {
+    align-items: center;
+    padding: 5vh 0 2vh 8vh;
+    margin-left: 25%;
+    /* background-color: #9792E3; */
+    height: 30px;
+    width: 150px;
+    justify-content: center;
+}
+
+.submit {
+    align-items: center;
+    padding: 1vh 0 2vh 14.3vh;
+}
+#convert {
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #9792E3;
+    font-size: 1rem;
+    background-color: #48435C;
+    color: #fff;
+}
